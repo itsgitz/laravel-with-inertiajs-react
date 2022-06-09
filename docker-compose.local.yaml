@@ -1,0 +1,19 @@
+version: '3'
+services:
+  db:
+    image: mariadb
+    container_name: local.dia-jaya-motor.db
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./.docker/mariadb:/var/lib/mysql
+    ports:
+      - 3306:3306
+    networks:
+      - local.dia-jaya-motor.network
+
+networks:
+  local.dia-jaya-motor.network:
+    name: local.dia-jaya-motor.network
+    driver: bridge
