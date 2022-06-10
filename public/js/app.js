@@ -56924,6 +56924,14 @@ var map = {
 		"./resources/js/react/Components/Layout.jsx",
 		"resources_js_react_Components_Layout_jsx"
 	],
+	"./Components/Navigation": [
+		"./resources/js/react/Components/Navigation.jsx",
+		"resources_js_react_Components_Navigation_jsx"
+	],
+	"./Components/Navigation.jsx": [
+		"./resources/js/react/Components/Navigation.jsx",
+		"resources_js_react_Components_Navigation_jsx"
+	],
 	"./Products/Index": [
 		"./resources/js/react/Products/Index.jsx",
 		"resources_js_react_Products_Index_jsx"

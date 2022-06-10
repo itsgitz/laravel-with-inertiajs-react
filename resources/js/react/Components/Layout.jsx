@@ -1,14 +1,20 @@
 import React from 'react';
 import { Link } from '@inertiajs/inertia-react';
+import Navigation from './Navigation';
 
 export default function Layout({children}) {
   return (
-    <main>
+    <div className="container mx-auto">
       <header>
-        <Link className='bg-yellow-100 p-3' href="/">Products</Link>
-        <Link className="bg-yellow-100 p-3" href="/show">Show</Link>
+        <Navigation>
+        </Navigation>
       </header>
-      {children}
-    </main>
+      <div className="py-3"></div>
+      <main>
+        <section>
+          {children}
+        </section>
+      </main>
+    </div>
   )
 }
