@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\ProductsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('products', ProductsController::class);
+Route::inertia('/', 'Products/Index');
+Route::inertia('/show', 'Products/Show');
