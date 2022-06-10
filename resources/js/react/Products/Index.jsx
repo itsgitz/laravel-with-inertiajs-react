@@ -1,16 +1,14 @@
 import React from 'react';
-import { Head, Link } from '@inertiajs/inertia-react';
+import { Head } from '@inertiajs/inertia-react';
+import Layout from '../Components/Layout';
 
 export default function Index({}) {
   return (
-    <>
-      <Head title="Main Products" />
+    <Layout>
+      <Head title="Home Products" />
       <div className="bg-red-100">
-        Hello from main products!
+        Hello from Home Products!
       </div>
-      <div>
-        <Link href="/show">Show</Link>
-      </div>
-    </>
+    </Layout>
   )
 }

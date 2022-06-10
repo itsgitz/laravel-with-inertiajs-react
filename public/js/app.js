@@ -56916,6 +56916,14 @@ module.exports = function getSideChannel() {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
+	"./Components/Layout": [
+		"./resources/js/react/Components/Layout.jsx",
+		"resources_js_react_Components_Layout_jsx"
+	],
+	"./Components/Layout.jsx": [
+		"./resources/js/react/Components/Layout.jsx",
+		"resources_js_react_Components_Layout_jsx"
+	],
 	"./Products/Index": [
 		"./resources/js/react/Products/Index.jsx",
 		"resources_js_react_Products_Index_jsx"

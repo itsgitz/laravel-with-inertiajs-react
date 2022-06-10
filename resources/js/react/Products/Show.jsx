@@ -1,11 +1,14 @@
 import React from 'react';
 import { Head } from '@inertiajs/inertia-react';
+import Layout from '../Components/Layout';
 
 export default function Show({}) {
   return (
-    <>
-      <Head title="Show Products" />
-      <h1 className="bg-blue-100">Hello from show product!</h1>
-    </>
+    <Layout>
+      <Head title="Show Product" />
+      <div className="bg-blue-100">
+        Show product!
+      </div>
+    </Layout>
   )
 }
